@@ -5,7 +5,7 @@
 This project recommends movies based on content similarity (what the movie is about), then shows posters in a clean Streamlit UI.
 
 
-## Project Files (Simple Explanation)
+## Project Files
 
 - app.py: Main app code (UI + recommendation logic + poster fetching).
 - movies.pkl: Preprocessed movie dataset used by the app.
@@ -44,7 +44,7 @@ score = 0.55 * content + 0.35 * genre + 0.10 * title_bonus
 
 This helps keep recommendations more genre-aware (for example thriller/mystery movies returning similar styles).
 
-## Full App Flow (End to End)
+## Full App Flow
 
 1. Load movie data from `movies.pkl` (or `movie_dict.pkl` if present).
 2. Build text features (TF-IDF vectors).
